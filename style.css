@@ -58,3 +58,7 @@ button {
 .border {
     border: 2px solid #d3deee;
 }
+
+.fa {
+    color: rgb(131, 131, 131);
+}
