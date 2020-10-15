@@ -15,18 +15,21 @@ html {
     padding-left: 10px;
     margin: 10px;
     display: block;
+    color: rgb(131, 131, 131);
 }
 
 .btn:hover {
     background: linear-gradient(145deg, #ced6e4, #f5ffff);
     box-shadow: 20px 20px 60px #c3cad7,
         -20px -20px 60px #ffffff;
+    color: rgb(71, 71, 71);
 }
 
 .btn:active {
     background: #e5eefd;
     box-shadow: inset 20px 20px 60px #c3cad7,
         inset -20px -20px 60px #fff;
+    color: rgb(71, 71, 71);
 }
 
 button {
@@ -38,16 +41,18 @@ button {
 .box {
     border-radius: 20px;
     background: #e5eefd;
-    box-shadow:  20px 20px 60px #c3cad7, 
-                 -20px -20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #c3cad7,
+        -20px -20px 60px #ffffff;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
+    color: rgb(131, 131, 131);
 }
 
 .box:hover {
     background: linear-gradient(145deg, #ced6e4, #f5ffff);
-    box-shadow:  20px 20px 60px #c3cad7, 
-                 -20px -20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #c3cad7,
+        -20px -20px 60px #ffffff;
+    color: rgb(71, 71, 71);
 }
 
 /* Utils */
@@ -60,5 +65,5 @@ button {
 }
 
 .fa {
-    color: rgb(131, 131, 131);
+    color: inherit;
 }
