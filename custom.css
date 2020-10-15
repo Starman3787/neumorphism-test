@@ -1,0 +1,25 @@
+.menu-btn {
+    width: 60px;
+    height: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    display: inline;
+}
+
+.fa-bars, .fa-user {
+    color: rgb(131, 131, 131);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-btn {
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+    }
+}
