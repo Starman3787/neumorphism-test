@@ -1,5 +1,6 @@
 html {
     background-color: #e5eefd;
+    transform: translateZ(0);
 }
 
 /* Buttons */
